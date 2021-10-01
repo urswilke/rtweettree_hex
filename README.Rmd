@@ -14,7 +14,14 @@ knitr::opts_chunk$set(
 # rtweettree_hex
 
 This repository was used to create the hex sticker of the package
-[rtweettree](https://github.com/urswilke/rtweettree). It was done with the
+[rtweettree](https://github.com/urswilke/rtweettree).
+
+```{r echo=FALSE}
+knitr::include_graphics("images/hex_sticker.png")
+```
+
+
+It was done with the
 awesome packages 
 
 - [flametree](https://github.com/djnavarro/flametree),

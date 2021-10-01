@@ -4,8 +4,11 @@
 # rtweettree\_hex
 
 This repository was used to create the hex sticker of the package
-[rtweettree](https://github.com/urswilke/rtweettree). It was done with
-the awesome packages
+[rtweettree](https://github.com/urswilke/rtweettree).
+
+<img src="images/hex_sticker.png" width="320" />
+
+It was done with the awesome packages
 
 -   [flametree](https://github.com/djnavarro/flametree),
 -   [magick](https://github.com/ropensci/magick),
