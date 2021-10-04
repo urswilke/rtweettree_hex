@@ -186,10 +186,10 @@ hex <-
   # add hex border:
   image_composite(hex_border, "over") %>%
   # add text:
-  image_annotate("github.com/urswilke/rtweettree", size = 20, color = "blue",
+  image_annotate("github.com/urswilke/rtweettree", size = 20, color = "black",
                  degrees = 30, location = geometry_point(95, 435)) %>%
-  image_annotate("rtweettree", size = 75, color = "blue",
-                 location = geometry_point(140, 190)) %>%
+  image_annotate("rtweettree", size = 90, color = "white", weight = 800,
+                 location = geometry_point(103, 190)) %>%
   # add birds:
   image_composite(parrot, "over", offset = geometry_point(460, 160)) %>%
   image_composite(oyster_catcher %>% image_flop(), "over", offset = geometry_point(340, 450)) %>%
