@@ -169,12 +169,12 @@ hex_border <- image_read(hex_png) %>%
 bild <- image_read(tree_png)
 
 
-parrot <- image_read_svg("images/bird_svgs/11971251681733865363emeza_Guacamaya.svg", width = 45, height = 45)
-oyster_catcher <- image_read_svg("images/bird_svgs/1197156164755347512johnny_automatic_oyster_catcher.svg", width = 45, height = 45)
-seagull <- image_read_svg("images/bird_svgs/11949854011768178445seagull_nicu_buculei_01.svg", width = 30 * 2, height = 30 * 2)
-finch <- image_read_svg("images/bird_svgs/11971499341074136672MichowwTru_Gold_Finch.svg", width = 30, height = 30)
-magpie <- image_read_svg("images/bird_svgs/1195441923684948462zeimusu_Magpie.svg", width = 30 * 2, height = 30 * 2)
-hummingbird <- image_read_svg("images/bird_svgs/12065563241286133361Chrisdesign_Hummingbird.svg", width = 30, height = 30)
+parrot <- image_read_svg("images/bird_svgs/11971251681733865363emeza_Guacamaya.svg", width = 45 * 1.5, height = 45 * 1.5)
+oyster_catcher <- image_read_svg("images/bird_svgs/1197156164755347512johnny_automatic_oyster_catcher.svg", width = 45 * 1.5, height = 45 * 1.5)
+seagull <- image_read_svg("images/bird_svgs/11949854011768178445seagull_nicu_buculei_01.svg", width = 30 * 2 * 1.5, height = 30 * 2 * 1.5)
+finch <- image_read_svg("images/bird_svgs/11971499341074136672MichowwTru_Gold_Finch.svg", width = 30 * 1.5, height = 30 * 1.5)
+magpie <- image_read_svg("images/bird_svgs/1195441923684948462zeimusu_Magpie.svg", width = 30 * 2 * 1.5, height = 30 * 2 * 1.5)
+hummingbird <- image_read_svg("images/bird_svgs/12065563241286133361Chrisdesign_Hummingbird.svg", width = 30 * 1.5, height = 30 * 1.5)
 black_mask <- image_read(black_hex_png) %>% image_scale(geometry_area(fig_size * 2, fig_size * 2))
 
 
@@ -191,12 +191,12 @@ hex <-
   image_annotate("rtweettree", size = 90, color = "white", weight = 800,
                  location = geometry_point(103, 190)) %>%
   # add birds:
-  image_composite(parrot, "over", offset = geometry_point(460, 160)) %>%
+  image_composite(parrot, "over", offset = geometry_point(430, 160)) %>%
   image_composite(oyster_catcher %>% image_flop(), "over", offset = geometry_point(340, 450)) %>%
-  image_composite(finch, "over", offset = geometry_point(440, 290)) %>%
+  image_composite(finch, "over", offset = geometry_point(440, 280)) %>%
   image_composite(hummingbird, "over", offset = geometry_point(350, 350)) %>%
   image_composite(seagull, "over", offset = geometry_point(275, 70)) %>%
-  image_composite(magpie, "over", offset = geometry_point(340, 150)) %>%
+  image_composite(magpie, "over", offset = geometry_point(340, 130)) %>%
   # change background from transparent to white:
   image_background("white")
 
