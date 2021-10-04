@@ -14,7 +14,7 @@ ft <- flametree::flametree_grow(
   time = 4,
   angle = c(-30, -10, 0, 20,  30),
   split = 5,
-  seg_wid = flametree::spark_decay(time = 0.3, multiplier = 1, constant = 0.1)
+  seg_wid = flametree::spark_decay(time = 0.3, multiplier = 2, constant = 0.1)
 )
 
 # https://stackoverflow.com/a/6863490
