@@ -28,6 +28,7 @@ awesome packages
 - [magick](https://github.com/ropensci/magick), 
 - [dplyr](https://github.com/tidyverse/dplyr/), and
 - [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html).
+- [ggpattern](https://github.com/coolbutuseless/ggpattern).
 
 
  The birds images in the repo were downloaded as svgs from http://www.clker.com/.

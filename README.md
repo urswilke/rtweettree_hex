@@ -6,7 +6,7 @@
 This repository was used to create the hex sticker of the package
 [rtweettree](https://github.com/urswilke/rtweettree).
 
-<img src="images/hex_sticker.png" width="320" />
+<img src="images/hex_sticker.png" width="640" />
 
 It was done with the awesome packages
 
@@ -14,6 +14,7 @@ It was done with the awesome packages
 -   [magick](https://github.com/ropensci/magick),
 -   [dplyr](https://github.com/tidyverse/dplyr/), and
 -   [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html).
+-   [ggpattern](https://github.com/coolbutuseless/ggpattern).
 
 The birds images in the repo were downloaded as svgs from
 <http://www.clker.com/>.
