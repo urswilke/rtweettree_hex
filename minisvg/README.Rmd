@@ -18,7 +18,7 @@ package [minisvg](https://github.com/coolbutuseless/minisvg/). The tree was
 created with [flametree](https://github.com/djnavarro/flametree).
 
 ```{r echo=FALSE}
-knitr::include_graphics("tree2.svg")
+knitr::include_graphics("minisvg_with_tree.svg")
 ```
 
 The final svg [minisvg.svg](minisvg.svg) is created with

@@ -8,7 +8,7 @@ used the R package
 [minisvg](https://github.com/coolbutuseless/minisvg/). The tree was
 created with [flametree](https://github.com/djnavarro/flametree).
 
-![](tree2.svg)<!-- -->
+![](minisvg_with_tree.svg)<!-- -->
 
 The final svg [minisvg.svg](minisvg.svg) is created with
 [create\_svg\_hex.R](create_svg_hex.R). Unfortunately, the file is not
