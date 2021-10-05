@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rtweettree\_hex
+## rtweettree\_hex
 
 This repository was used to create the hex sticker of the package
 [rtweettree](https://github.com/urswilke/rtweettree).
@@ -18,3 +18,9 @@ It was done with the awesome packages
 
 The birds images in the repo were downloaded as svgs from
 <http://www.clker.com/>.
+
+## svg hex
+
+I also played around with svgs and the package
+[minisvg](https://github.com/coolbutuseless/minisvg/). You can find the
+results in the subfolder [minisvg](minisvg) of this package.
