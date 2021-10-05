@@ -1,0 +1,27 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# svg hex
+
+The files in this folder are the result of playing around with svg. I used the R
+package [minisvg](https://github.com/coolbutuseless/minisvg/). The tree was
+created with [flametree](https://github.com/djnavarro/flametree).
+
+```{r echo=FALSE}
+knitr::include_graphics("minisvg.svg")
+```
+
+The final svg [minisvg.svg](minisvg.svg) is created with
+[create_svg_hex.R](create_svg_hex.R). Unfortunately, the file is not completely
+rendered when you view it on github. But when you download it, you can can view
+it in firefox.
