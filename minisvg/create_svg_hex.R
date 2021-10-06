@@ -81,19 +81,23 @@ g4 <- stag$radialGradient(
 
 
 doc$defs(g1, g2, g3, g4, cp)
-rect_parameters <- list(x="0", y="0", rx="0", ry="0", width="640", height="640")
+# I don't know why this works but it does; the standard way to do this
+# would be https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g
+# stag$g()
+rect_parameters <- list(
+  x="0", y="0", rx="0", ry="0", width="640", height="640",
+  clip_path="url(#cutOutHex)"
+)
 doc$append(
   stag$rect(
     rect_parameters,
     fill="white",
-    fill_opacity="1",
-    clip_path="url(#cutOutHex)"
+    fill_opacity="1"
   ),
   stag$rect(
     rect_parameters,
     fill="url(#SkyGradient)",
-    fill_opacity="0.4",
-    clip_path="url(#cutOutHex)"
+    fill_opacity="0.4"
   ),
   stag$circle(
     cx="480",
@@ -106,20 +110,17 @@ doc$append(
   stag$rect(
     rect_parameters,
     fill="url(#SunSurroundingGradient)",
-    fill_opacity="0.4",
-    clip_path="url(#cutOutHex)"
+    fill_opacity="0.4"
   ),
   stag$rect(
     rect_parameters,
     fill="url(#RadialGradient3)",
-    fill_opacity="0.4",
-    clip_path="url(#cutOutHex)"
+    fill_opacity="0.4"
   ),
   stag$rect(
     rect_parameters,
     fill="url(#SkyGradient)",
-    fill_opacity="0.4",
-    clip_path="url(#cutOutHex)"
+    fill_opacity="0.4"
   ),
   stag$circle(
     cx="370",
